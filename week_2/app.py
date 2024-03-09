@@ -1,7 +1,7 @@
 from langchain.prompts import PromptTemplate
 from langchain_community.llms import CTransformers
 
-llm = CTransformers(model='models/llama-2-7b-chat.ggmlv3.q4_0.bin',     # Save the models you will use in the modles file. 
+llm = CTransformers(model='models/llama-2-7b-chat.ggmlv3.q4_0.bin',     # Create a models file to save the models you will download. 
                     model_type='llama',                                 # link to Llama2 quantized model: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
                     config={'max_new_tokens': 256,
                             'temperature': 0.01})
