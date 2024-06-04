@@ -5,11 +5,11 @@
 ```bash
 virtualenv week_5
 ```
--Activate virtualenv(windows):
+- Activate virtualenv(windows):
 ```bash
 week_5/scripts/activate
 ```
--To install the libraries in requirement.txt:
+- To install the libraries in requirement.txt:
 ```bash
 pip install -r requirement.txt
 ```
